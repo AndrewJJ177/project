@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project</title>
+<!--    bootstrap css1 js2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!--    fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<style class="text/css">
+    @font-face {
+  font-family: 'Aldrich';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/aldrich/v11/MCoTzAn-1s3IGyJMVacY3w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+    body{
+        background-color: #ffffff;
+        font-family:'Poppins', sans-serif;;
+    }
+    .section-tltle p{
+        font-family: "Aldrich", sans-serif;
+        font-weight: 400;
+        color:#111111;
+        font-size: 43px;
+        line-height: 50px;
+        margin-bottom: 30px;
+        margin-top: 2px;
+    }
+    span{
+        color: #b7b7b7;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .small-middle-container{
+        margin: auto;
+        margin-top: 100px;
+        width: 75%;
+        margin-bottom: 90px;
+    }
+    h4{
+        color: #111111;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 33px;
+        letter-spacing: 1px;
+    }
+    h5{
+        font-size: 15px;
+        color: #dfa667;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .bgimg{
+        background-image: url("img/mai.jpg");
+        background-repeat: no-repeat;
+        height: 75vh;
+        width: auto;
+        background-position: center;
+    }
+    .text{
+        margin-top:120px;
+    }
+    .mai1{
+        color: #dfa667;
+        font-size:15px ;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    h2{
+        color: #ffffff;
+       margin-top: 25px;
+        font-size: 42px;
+        padding: 5px 10px;
+        line-height:50px ;
+        margin-bottom: 36px;
+        font-weight:light;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+    }
+
+    .col-lg-10{
+        position: relative;
+        width: 80%;
+        /*padding-right: 15px;*/
+        /*padding-left: 15px;*/
+    }
+    .section-tltle{
+        margin-bottom: 40px;
+    }
+    .btn-bg{
+        background-color:rgb(223, 166, 103);
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 16px 50px;
+        border-radius: 5px;
+    }
+    .main2{
+        color: #dfa667;
+    }
+    .container{
+        margin-top: 70px;
+    }
+    .footer-bgimg{
+        background-image: url("img/what.jpg");
+        background-repeat: no-repeat;
+        height:60vh;
+        padding-top: 50px;
+    }
+    .footer-container{
+        width: 80%;
+        margin: auto;
+    }
+    .footer-head{
+        /*border-bottom: 1px solid rgba(183, 183, 183, 0.2);*/
+        padding-bottom: 80px;
+        margin-bottom: 90px;
+    }
+    .footer-text h3{
+        color: #ffffff;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+    .footer-form{
+        width: 80%;
+        padding-left: 30px;
+        margin-left: 70px;
+    }
+    .footer-form form{
+        position: relative;
+    }
+    .footer-form form input{
+        width: 100%;
+    height: 50px;
+    color: #b7b7b7;
+    padding-left: 30px;
+    font-size: 14px;
+    border: none;
+        outline: none;
+    }
+    .footer-form form button{
+        font-size: 14px;
+    color: #ffffff;
+    background: #dfa667;
+    border: none;
+    height: 100%;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .about{
+        margin-bottom: 30px;
+    }
+    .about .logo{
+        margin-bottom:25px ;
+    }
+    .about p{
+        margin-bottom: 28px;
+        color:#707070;
+    }
+    .about ul{
+        margin-bottom: 35px;
+    }
+    .about ul li{
+        color:#707070;
+        list-style: none;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: -30px;
+    }
+    h6{
+        margin-bottom: 30px;
+        color: #ffffff;
+    }
+    .footer-company{
+        margin-left: 90px;
+    }
+    .footer-company li{
+        list-style-type: none;
+    }
+    .footer-company li a{
+        color:#707070;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: -30px;
+        list-style: none;
+    }
+    .footer-services li{
+        list-style: none;
+    }
+    .footer-services li a{
+        color: #707070;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: -30px;
+    }
+    .footer-address{
+        margin-bottom: 28px;
+        color:#707070;
+        margin-left: -30px;
+    }
+    .footer-address li a{
+        color:#707070;
+        list-style: none;
+        font-size: 15px;
+        line-height: 30px;
+        margin-left: -30px;
+    }
+.text-bg{
+    text-align: center;
+}
+
+
+
+</style>
+<body>
+<!--Start Contact section-->
+<section class="bgimg">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-10 text-center">
+                <div class="text">
+                    <span class="mai1" >WHY CHOOSE US?</span>
+                    <h2>Our Ability To Deliver Outstanding Results For Our Clients Starts With Our Team Of Smart. </h2>
+                    <a href="#" class=" btn btn-bg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End contact section-->
+
+
+<!--Start Blog Section-->
+<section>
+<div class="small-middle-container">
+    <div class="row">
+        <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="section-tltle">
+                <h5 class="mai2">LATEST NEWS</h5>
+                <p>FROM OUR BLOG</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card">
+                <img src="https://preview.colorlib.com/theme/staging/img/blog/xlatest-1.jpg.pagespeed.ic.daE0bmihAK.webp" alt="">
+                <div class="card-body p-4">
+                    <div class="card-title">
+                        <span class="text-secondary">ARCHITECTURE</span>
+                    </div>
+                    <div class="card-text">
+                         <h4>Target and Amazon Shopping List for Home Stagers</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card">
+                <img src="https://preview.colorlib.com/theme/staging/img/blog/xlatest-2.jpg.pagespeed.ic.PM6uujTuWq.webp" alt="">
+                <div class="card-body p-4">
+                    <div class="card-title">
+                        <span>INTERIOR</span>
+                    </div>
+                    <div class="card-text">
+                         <h4>6 Ideas for Team Building and Employee Appreciation for Home Stagers</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card">
+                <img src="https://preview.colorlib.com/theme/staging/img/blog/xlatest-3.jpg.pagespeed.ic.ewGY-XErXF.webp" alt="">
+                <div class="card-body p-4">
+                    <div class="card-title">
+                        <span>PLANING</span>
+                    </div>
+                    <div class="card-text">
+                         <h4>How to Find the Best Price Structure for Your Home Staging Services</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+<!--End Blog Section-->
+
+<!--Start Footer Section-->
+<section class="footer-bgimg">
+    <div class="container footer-container">
+        <div class="footer-head">
+            <div class="row">
+            <div class="col-md-6">
+                <div class="footer-text">
+                    <h3>Ready to work with Us?</h3>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="footer-form">
+                    <form action="">
+                    <input type="text" placeholder="Enter your Email...">
+                    <button type="submit"><i class="fa fa-send"></i></button>
+                </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="about">
+                    <div class="logo">
+                        <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    </div>
+                    <p>7176 Blue Spring Lane </br>Santa Monica, CA 90403</p>
+                    <ul>
+                        <li>Info.colorlib@gmail.com</li>
+                        <li>+84 123 456 789</li>
+                    </ul>
+                    <div class="social media">
+                        <a href="#"><i class="fa fa-facebook">fb</i></a>
+                        <a href="#"><i class="fa fa-twitter">tt</i></a>
+                        <a href="#"><i class="fa fa-instagram">Ig</i></a>
+                        <a href="#"><i class="fa fa-linkedin">in</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-company">
+                    <h6>Company</h6>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Works</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-services">
+                    <h6>Services</h6>
+                    <ul>
+                        <li><a href="#">Architecture</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                        <li><a href="#">Exterior Design</a></li>
+                        <li><a href="#">Planning</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-address">
+                    <h6>Get In Touch</h6>
+                    <p>7176 Blue Spring Lane </br> Santa Monica, CA 90403</p>
+                    <ul>
+                        <li><a href="#">Info.colorlib@gmail.com</a></li>
+                        <li><a href="#">+84 123 456 789</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="text-bg">
+          <span>Copyright © 2021 All rights reserved | This template is made with  by Colorlib</span>
+      </div>
+</section>
+<!--End Footer Section-->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<!--jquery js1-->
+<script src="libs/jquery/jquery.min.js"></script>
+</body>
+</html>

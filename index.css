@@ -1,0 +1,193 @@
+#alpha {
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+#menubar{
+    font-family: 'Heebo', sans-serif;
+    letter-spacing:4px;
+}
+ul{
+
+    font-family: 'Teko', sans-serif;
+}
+
+li{
+    letter-spacing:2px;
+}
+
+#banner{
+    background-image: url("assets/libs/img/nature.jpeg");
+    height: 1100px;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#ebook{
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+#typography{
+color: darkgray;
+
+}
+#photography{
+color:darkgray;
+
+
+
+}
+#technology{
+ color: darkgray;
+
+
+
+}
+#engineer{
+color: darkgray;
+}
+#communication{
+    color:darkgray;
+}
+
+#advertisement{
+color:rgba(184,171,127,1.00);
+}
+#btn1{
+
+
+    color: white;
+
+
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#btn2{
+
+    color: white;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#btn3{
+
+    color: white;
+
+
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#btn4{
+
+
+    color: white;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#btn5{
+
+    color: white;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+#btn6{
+
+    color: white;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#amalay1{
+    letter-spacing: 4px;
+}
+#amalay2 {
+    letter-spacing: 4px;
+}
+#amalay3 {
+    letter-spacing: 4px;
+}
+#amalay4 {
+    letter-spacing: 4px;
+}
+#amalay5 {
+    letter-spacing: 4px;
+}
+#amalay6 {
+    letter-spacing: 4px;
+}
+#plan{
+    letter-spacing:4px;
+}
+#study{
+
+
+    letter-spacing:2px;
+}
+
+
+
+
+
+
+
+/*software section*/
+
+
+
+
+
+#tr{
+    /*background: #304352;  !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to left, #d7d2cc, #304352);  !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to left, #d7d2cc, #304352); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+}
+#pop{
+    /*background: #304352;  !* fallback for old browsers *!*/
+    /*background: -webkit-linear-gradient(to left, #d7d2cc, #304352);  !* Chrome 10-25, Safari 5.1-6 *!*/
+    /*background: linear-gradient(to left, #d7d2cc, #304352); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
+}
+
+
+/*end sotfware section*/
+
+
+
+
+
+
+
+
